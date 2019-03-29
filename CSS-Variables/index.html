@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Variables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <h1>CSS Variables update using <span class="high">JS</span></h1>
+    <div>
+      <div class="input-group">
+        <label>Border Spacing : </label>
+        <input
+          type="range"
+          name="space"
+          min="10"
+          max="200"
+          value="1"
+          data-unit="px"
+        />
+      </div>
+      <div class="input-group">
+        <label>Blur Range : </label>
+        <input
+          type="range"
+          name="blur"
+          min="0"
+          max="10"
+          value="1"
+          data-unit="px"
+        />
+      </div>
+      <div class="input-group">
+        <label>Frame Color : </label>
+        <input type="color" name="color" value="#ffffff" />
+      </div>
+    </div>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx_dNi6L-Yg_iIasdzD5u-4CADLAsLrWiR9ykugd8ZUXiQWwbkEw"
+    />
+  </body>
+  <script src="main.js"></script>
+</html>

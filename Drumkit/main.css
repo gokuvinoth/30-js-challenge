@@ -1,0 +1,30 @@
+body {
+  background: url("https://c8.alamy.com/comp/HGB2K9/crowd-of-people-at-the-lincoln-memorial-during-the-march-on-washington-HGB2K9.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+kbd {
+  font-size: 5em;
+}
+.keys {
+  color: yellow;
+  display: block;
+  padding: 10em 10em 10em 10em;
+}
+.key {
+  border: 1px solid yellowgreen;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  transition: all 0.7s;
+  min-width: 100px;
+}
+.on {
+  transform: scale(1.2);
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px #000000;
+  color: whitesmoke;
+}
+.instrument {
+  padding: 0;
+}
