@@ -1,0 +1,26 @@
+body {
+  background: #ffc600;
+  text-align: center;
+}
+
+.items {
+  background: white;
+  display: inline-block;
+  text-align: left;
+  line-height: 2;
+}
+.item {
+  border: 1px solid grey;
+  font-size: 2em;
+  padding: 0 1em 0 1em;
+}
+
+.item-input {
+  background: blueviolet;
+  height: 2em;
+  width: 2em;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
