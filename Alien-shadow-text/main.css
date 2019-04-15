@@ -1,0 +1,10 @@
+.stage {
+  text-align: center;
+  min-height: 100%;
+  min-width: 100%x;
+  border: 1px solid red;
+}
+h1 {
+  font-size: 100px;
+  text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+}
